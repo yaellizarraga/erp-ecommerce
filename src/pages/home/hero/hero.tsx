@@ -1,11 +1,13 @@
 interface heroProps {
-    sliderText: string
+    slideText: String,
+    slideImagen: String
 }
 
-const Hero = ({ sliderText }: heroProps): JSX.Element => {
+const Hero = ({ slideText, slideImagen }: heroProps): JSX.Element => {
     return (
         <div className="">
-            {sliderText}
+            {slideImagen}
+            {slideText}
         </div>
     )
 }

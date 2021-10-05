@@ -6,6 +6,10 @@ module.exports = {
   },
   variants: {
     extend: {},
+    container: []
   },
   plugins: [],
+  corePlugins: {
+    container: false
+  }
 }
