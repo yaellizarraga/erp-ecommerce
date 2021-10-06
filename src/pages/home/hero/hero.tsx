@@ -5,9 +5,8 @@ interface heroProps {
 
 const Hero = ({ slideText, slideImagen }: heroProps): JSX.Element => {
     return (
-        <div className="">
-            {slideImagen}
-            {slideText}
+        <div className="container">
+
         </div>
     )
 }
